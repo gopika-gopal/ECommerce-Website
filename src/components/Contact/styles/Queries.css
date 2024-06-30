@@ -1,0 +1,82 @@
+/* ******************************* */
+/*  BELOW 1200px (Landscape Tablets) */
+/* ******************************* */
+
+@media (max-width:75em) {
+    .contact-us-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .google-map-grid {
+        text-align: center;
+    }
+
+    .contact-info {
+        align-items: normal;
+    }
+
+    .contact-info-grid h3 {
+        font-size: 1.6rem;
+        line-height: 4rem;
+    }
+
+    .contact-info-grid p {
+        font-size: 1.1rem;
+    }
+
+}
+
+/* ******************************* */
+/* BELOW 944px (Tablets) */
+/* ******************************* */
+
+@media (max-width:59em) {
+    .contact-info-grid h3 {
+        font-size: 1.4rem;
+    }
+
+    .contact-info-grid p {
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+}
+
+/* ******************************* */
+/* BELOW 704px (Smaller Tablets) */
+/* ******************************* */
+
+@media (max-width:44em) {
+
+    .contact-info-grid {
+        padding: 0.5rem;
+    }
+
+    .contact-info-grid h3 {
+        font-size: 1.2rem;
+    }
+
+    .contact-info-grid p {
+        font-size: 0.9rem;
+        line-height: 1.4rem;
+    }
+}
+
+/* ******************************* */
+/* BELOW 544px (Phones) */
+/* ******************************* */
+
+@media (max-width:34em) {
+    .contact-info-grid {
+        padding: 0;
+    }
+
+    .contact-info-grid h3 {
+        font-size: 1rem;
+    }
+
+    .contact-info-grid p {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+}

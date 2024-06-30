@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+
+.contact-us-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 3rem;
+}
+
+.contact-form-grid {
+    width: 100%;
+    padding: 20px;
+    margin-top: 2rem;
+    border-radius: 8px;
+}
+
+.contact-form-grid h3 {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.error-message {
+    color: red;
+    font-size: smaller;
+}
+
+.google-map-grid {
+    width: 100%;
+    padding: 20px;
+    margin-top: 2rem;
+    border-radius: 8px;
+    text-align: right;
+    height: 550px;
+    margin-top: 0px;
+    /* Add space on top */
+}
+
+.google-map-grid h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 60px;
+    color: #fff;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 12rem 4rem 12rem 4rem;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.contact-info-grid {
+    padding: 0.2rem;
+    align-items: center;
+    text-align: center;
+    background-color:transparent;
+    border: 1px solid #fff;
+}
+
+.contact-info-grid h3 {
+    color: #fff;
+    font-size: 2rem;
+    line-height: 5rem;
+}
+
+.contact-info-grid p {
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.contact-form-grid label {
+    font-weight: bold;
+    line-height: 2rem;
+    color: #999;
+}
+
+.contact-form-grid input[type="text"],
+.contact-form-grid input[type="email"],
+.contact-form-grid textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form-grid textarea {
+    height: 100px;
+    /* Adjust height as needed */
+}
+
+.submit-btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 12px 46%;
+    margin-top: 3rem;
+    text-decoration: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: transparent;
+    transform: translateX(-3px);;
+}
+
+/* .popup {
+    position: fixed;
+    top: 0;
+    right: 0; 
+    width: 300px; 
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    z-index: 999; 
+  }
+  
+  .popup-inner {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  } */
+
+  /* ******************************* */
+/* BELOW 1344px (Smaller desktops) */
+/* ******************************* */
+
+@media (max-width: 84em) {
+.contact-us-container{
+    gap: 0;
+}
+}
+
+/* ******************************* */
+/* BELOW 1200px (Landscape Tablets) */
+/* ******************************* */
+
+@media (max-width: 75em) {
+  .contact-form{
+    width: 82%;
+    padding-left: 8rem;
+  }
+
+  .contact-info{
+    gap: 1rem;
+  }
+
+}
+
+/* ******************************* */
+/* BELOW 944px (Tablets) */
+/* ******************************* */
+
+@media (max-width: 59em) {
+  .contact-form-grid{
+    padding: 0;
+  }
+ }
+
+/* ******************************* */
+/* BELOW 704px (Smaller Tablets) */
+/* ******************************* */
+
+@media (max-width: 44em) {
+   .contact-info{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+
+   iframe{
+    width: 500px;
+    height: 330px;
+   }
+
+   .contact-form{
+       padding-left: 6rem;
+  }
+  .contact-form{
+    width: 90%;
+  }
+  
+  .about-details p {
+    font-size: 17px;
+  }
+
+ }
+
+/* ******************************* */
+/* BELOW 544px (Phones) */
+/* ******************************* */
+
+@media (max-width: 34em) {
+    iframe{
+        width: 325px;
+        height: 280px;
+       }
+
+       .contact-form{
+        padding-left: 4rem;
+   }
+
+   .contact-form{
+    width: 86%;
+  }
+}
+  
+
+  
+  

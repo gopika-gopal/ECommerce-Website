@@ -1,0 +1,145 @@
+/* ******************************* */
+/* BELOW 1200px (Smaller desktops) */
+/* ******************************* */
+
+@media (max-width:75em) {
+    .dash-container {
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .form-container h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* ******************************* */
+/* BELOW 944px (Tablets) */
+/* ******************************* */
+
+@media (max-width:59em) {
+    .sidebar {
+        width: 150px;
+    }
+
+    .sidebar-btn.active {
+        font-size: 1.1rem;
+    }
+
+    .row {
+        font-size: 0.9rem;
+    }
+
+    .form-group {
+        margin-bottom: 10px;
+    }
+
+    .form-container {
+        margin: 0 10px;
+    }
+
+    .product-item {
+        padding: 10px;
+    }
+}
+
+/* ******************************* */
+/* BELOW 704px (Smaller Tablets) */
+/* ******************************* */
+
+@media (max-width:44em) {
+    .sidebar {
+        width: 100px;
+        padding: 2px;
+    }
+
+    .sidebar-btn.active {
+        font-size: 0.9rem;
+    }
+
+    .row {
+        font-size: 0.8rem;
+    }
+
+    .heading {
+        font-size: 0.9rem;
+    }
+
+    .manage-button {
+        font-size: 0.7rem;
+    }
+
+    .product-header h2 {
+        font-size: 1.6rem;
+    }
+
+    .form-container {
+        padding: 10px;
+    }
+
+    .form-container h2 {
+        font-size: 1.4rem;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+        padding: 5px;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+    .product-item {
+        padding: 5px;
+    }
+}
+
+/* ******************************* */
+/* BELOW 544px (Phones) */
+/* ******************************* */
+
+@media (max-width:34em) {
+    .sidebar {
+        width: 75px;
+        padding: 0px;
+    }
+
+    .sidebar-btn.active {
+        font-size: 0.7rem;
+    }
+
+    .row {
+        font-size: 0.6rem;
+    }
+
+    .heading {
+        font-size: 0.7rem;
+    }
+
+    .manage-button {
+        font-size: 0.6rem;
+    }
+
+    .product-header h2 {
+        font-size: 1.4rem;
+    }
+
+    .form-container h2 {
+        font-size: 1.2rem;
+    }
+
+    input[type="text"],
+    input[type="file"] {
+        padding: 2px;
+    }
+
+    label {
+        font-size: 0.8rem;
+    }
+
+    .product-item {
+        padding: 1px;
+    }
+
+}

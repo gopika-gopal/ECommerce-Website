@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href='https://img.freepik.com/free-vector/hand-drawn-clothing-store-logo-design_23-2149577874.jpg?ga=GA1.1.2115210507.1711006710' />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FASHION - 404</title>
+  <meta http-equiv="refresh" content="0; URL=./index.html" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script>
+    // If the URL is not the root URL, redirect to index.html with hash
+    var currentPath = window.location.pathname;
+    if (currentPath !== '/') {
+      window.location.replace('/index.html?' + new Date().getTime() + '#!' + currentPath);
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.sliding-container {
+  display: flex;
+  margin: 20px 0;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.sliding-products {
+  padding: 20px 0;
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+.featuredCard {
+  gap: 0;
+  height: 320px;
+  width: 360px;
+  border: 1px solid rgb(231, 228, 228);
+}
+
+.sliding-products a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

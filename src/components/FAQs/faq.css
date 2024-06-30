@@ -1,0 +1,43 @@
+.faqs-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faqs {
+  width: 50%;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.faqs h1{
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+.faqs > p{
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.faqs-contact-container {
+  border: 1px solid rgb(206, 206, 206);
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.faqs-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.faqs-contact .whatsapp,
+.faqs-contact .mail {
+  font-size: 30px;
+}

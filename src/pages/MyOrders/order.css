@@ -1,0 +1,27 @@
+.orders-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  /* justify-content: center; */
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.my-orders-heading {
+  text-align: left;
+  margin: 10px;
+}
+
+.order-card {
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  border: 1px solid rgb(189, 189, 189);
+  border-radius: 10px;
+  min-height: 70px;
+  padding: 20px;
+  width: 60%;
+}
